@@ -16,7 +16,7 @@ namespace Terceiro
 
             //E) No exercício E o próximo número é 13 -> 0, 1, 1, 2, 3, 5, 8, (13)
 
-            //F) No exercício F o próximo número é 200 -> Todos começam com D - 2, 10, 12, 16, 17, 18, 19, (200)
+            //F) No exercício F o próximo número é ? -> - 2, 10, 12, 16, 17, 18, 19, (20?)
         }
     }
 }
