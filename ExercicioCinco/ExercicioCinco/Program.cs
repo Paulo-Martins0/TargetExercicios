@@ -14,14 +14,14 @@ namespace Quinto
 
         static string StringInversa (string str)
         {
-            //Pega todas as letras presentes na string e coloca em uma array de chars
-            char[] letras = str.ToCharArray();
+            string inversa = "";
 
-            //Usa do metodo Reverse presente na Array para inverter a ordem das letras no array
-            Array.Reverse(letras);
+            for(int i = str.Length - 1; i >= 0; i--)
+            {
+                inversa += str[i];
+            }
 
-            //retorna a string
-            return new string(letras);
+            return inversa;
         }
     }
 }
